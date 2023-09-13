@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Landing Page</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Qwigley&family=Source+Sans+3:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--header starts here-->
+    <header>
+        <!-- ? nav bar starts here -->
+    <nav class="navbar mx-5">
+        <div class=" nav-container container-fluid">
+          <a class="navbar-brand">Hot Meals</a>
+          <p>
+            <b>Deliver to:</b>
+            <img src="./Images/location.svg" alt="location"/>
+            <span class="nav-location">Current Location<b>Ashok Nagar, Chennai-600013</b></span>
+         </p>
+          <form class="d-flex" role="search">
+            <img src="./Images/Search1.svg" alt="search1"/>
+            <input class="form-control me-2" type="search" placeholder="Search Food" aria-label="Search">
+            <button class="btn btn-outline-warning d-flex px-3 py-2 gap-2 me-5" type="submit">
+                 <img src="./Images/loginuser.svg"/><b>Login</b>
+             </button>
+          </form>
+         </div>
+      </nav>
+      <!--nav bar end-->
+      <!--- header content starts here--->
+      <div class="container-fluid d-flex flex-wrap-reverse justify-content-between heading-main">
+        <!--header left side-->
+        <div class="leftside-content ms-5">
+            <h1 class="margin-top142px mb-3">Look at your fav Meals</h1>
+            <p class="mb-4">Within a few clicks, find meals that are accessible near you</p>
+            <form class="form-content">
+                <div class="buttons d-flex gap-2 p-4 align-items-start">
+                    <button type="button" class="bike-btn rounded-3">
+                        <img src="./Images/bike.svg" alt="bike-icon"/>&nbsp;Delivery
+                    </button>
+                    <button type="button" class="bike-btn rectangle">
+                        <img src="./Images/bag.svg" alt="bag-icon"/>Pickup
+                    </button>
+                </div>
+                <div class="header-inputs d-flex p-4 align-items-start gap-2">
+                    <img
+                      src="./Images/location2.svg"
+                      alt="location2"
+                    />
+                    <input
+                      class="input-address rounded-3 align-items-center d-flex gap-2.5 p-3"
+                      type="text"
+                      value="address"
+                      placeholder="Enter Your Address"
+                    />
+                    <button
+                      type="button"
+                      class="search-btn rounded-3 d-flex gap-2 justify-content-center align-items-center"
+                    >
+                      <img src="./Images/search2.svg" alt="search-white" />Find
+                      Food
+                    </button>
+                  </div>
+                </form>
+            
+            <!-- header right side-->
+            <div class="right-image me-5">
+                <img
+                  src="./Images/foodfeast.png"
+                  alt="foodfeast"
+                  class="img-fluid m-auto"
+                />
+            </div>
+        </div>
+       
+  </div>
+ </header>
+ <!--end of header-->
+ <!--main starts here-->
+ <main>
+    <section1>
+    <div class="card1-group d-flex flex-wrap gap-3 justify-content-center">
+     <div class="card1" style="width: 18rem;">
+        <img src="./Images/vada.png" class="card-img-top img-fluid rounded-3" alt="vada">
+        <div class="card-body">
+          <h5 class="card-title mt-4 mb-3">Vada</h5>
+          <button type="button" class="rounded-3 align-items-start">
+            30 min Delivery
+          </button>
+        </div>
+      </div>
+      <div class="card1">
+        <img
+          src="./Images/idly.png"
+          class="card-img-top img-fluid rounded-3"
+          alt="idly"
+        />
+        <div class="card-body">
+          <h5 class="card-title mt-4 mb-3">Idly</h5>
+          <button type="button" class="rounded-3 align-items-start">
+            30 min Delivery
+          </button>
+        </div>
+      </div>
+      <div class="card1">
+        <img
+          src="./Images/parotta.png"
+          class="card-img-top img-fluid rounded-3"
+          alt="parotta"
+        />
+        <div class="card-body">
+          <h5 class="card-title mt-4 mb-3">Parotta</h5>
+          <button type="button" class="rounded-3 align-items-start">
+            30 min Delivery
+          </button>
+        </div>
+      </div>
+      <div class="card1">
+        <img src="./Images/kichadi.png" class="card-img-top img-fluid rounded-3"
+        alt="kichadi" />
+        <div class="card-body">
+          <h5 class="card-title mt-4 mb-3">Kichadi</h5>
+          <button type="button" class="rounded-3 align-items-start">
+            30 min Delivery
+          </button>
+        </div>
+      </div>
+    </div>
+    </section1> 
+    <!--section 1 in main ends here-->
+    <!--section2 starts here-->
+    <section2>
+        <div class="card2-group d-flex align-items-center flex-column">
+            <h1>How does it work</h1>
+            <div
+              class="card2-group-container container flex-wrap d-flex justify-content-evenly text-center">
+              <div class="card2 d-flex align-items-center my-5">
+                <img
+                  src="./Images/DiscountIcon.svg"
+                  class="img-fluid"
+                  alt="DiscountsIcon"
+                />
+                <h2>
+                  Daily <br />
+                  Discounts
+                </h2>
+              </div>
+              <img src="./Images/HR.svg" alt="HR" />
+              <div class="card2 d-flex align-items-center my-5">
+                <img
+                  src="./Images/LiveTracingIcon.svg"
+                  class="img-fluid"
+                  alt="LiveTracingIcon"
+                />
+                <h2>
+                  Live <br />
+                  Tracing
+                </h2>
+              </div>
+              <img src="./Images/HR (1).svg" alt="HR" />
+              <div class="card2 d-flex align-items-center my-5">
+                <img
+                  src="./Images/QuickDelivery.svg"
+                  class="img-fluid"
+                  alt="QuickDelivery"
+                />
+                <h2>
+                  Quick <br />
+                  Delivery
+                </h2>
+              </div>
+            </div>
+          </div>
+ </section2>
+ <!--section2 ends here-->
+ <!--section3 starts here-->
+ <section3>
+    <div
+        class="card3-group container-fluid d-flex flex-column align-items-center" >
+        <h2>Search by Food</h2>
+        <div
+          class="card3-group-container d-flex flex-wrap text-center justify-content-center gap-4" >
+          <div class="card3">
+            <img src="./Images/dosa.png" alt="dosa" />
+            <p>Dosa</p>
+          </div>
+          <div class="card3">
+            <img src="./Images/appam.png" alt="appam" />
+            <p>Aapppm</p>
+          </div>
+          <div class="card3">
+            <img src="./Images/puttu.png" alt="puttu" />
+            <p>Puttu</p>
+          </div>
+          <div class="card3">
+            <img src="./Images/idiyappam.png" alt="idiyappam" />
+            <p>Idiyappam</p>
+          </div>
+          <div class="card3">
+            <img src="./Images/pongal.png" alt="pongal" />
+            <p>Pongal</p>
+          </div>
+          <div class="card3">
+            <img src="./Images/vegrice.png" alt="vegrice" />
+            <p>Veg Rice</p>
+          </div>
+        </div>
+      </div>
+ </section3>
+ <!--section 3 ends here-->
+ <!--section 4 starts here-->
+ <section4>
+    <div
+    class="card4-group d-flex flex-wrap justify-content-center align-items-center gap-5"
+  >
+    <div class="cards4">
+      <div class="card4">
+        <div class="card-body">
+          <h5 class="card-title">
+            Best deals
+            <span class="yellow-text"
+              >Crispy <br />
+              Diffen</span
+            >
+          </h5>
+          <p class="card-text4">
+            Enjoy the large size of Dosa. Complete <br />
+            perfect slice of Dosa.
+          </p>
+          <a
+            href="#"
+            class="btn-4 d-flex justify-content-center align-items-center"
+            >Proceed to order
+            <img src="./Images/CHEVRON-RIGHTarrow.svg" alt="CHEVRON-RIGHTarrow"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <img src="./Images/idlydoasaFeast.png" class="img-fluid" alt="idlydoasaFeast" />
+  </div>
+ </section4>
+ <!--section 4 ends here-->
+ <!-- section 5 starts here-->
+ <section5>
+ <div class="card5-group d-flex flex-wrap flex-column align-items-center">
+    <h1 class="mb-5">Popular items</h1>
+    <div class="cards5 d-flex flex-column">
+      <div
+        class="cards5-1st-group d-flex flex-wrap justify-content-center mx-5 gap-3"
+      >
+        <div class="card5">
+          <img src="./Images/murukku.png" alt="murukku" />
+          <h2 class="text-center my-3">Murukku</h2>
+          <button type="button" class="text-center btn-5">Order Now</button>
+        </div>
+        <div class="card5">
+          <img src="./Images/paniyaram.png" alt="paniyaram" />
+          <h2 class="text-center my-3">Paniyaram</h2>
+          <button type="button" class="text-center btn-5">Order Now</button>
+        </div>
+        <div class="card5">
+          <img src="./Images/seevalmurukku.png" alt="SeevalMurukku" />
+          <h2 class="text-center my-3">Seeval Murukku</h2>
+          <button type="button" class="text-center btn-5">Order Now</button>
+        </div>
+        <div class="card5">
+          <img src="./Images/mixture.png" alt="mixture" />
+          <h2 class="text-center my-3">Mixture</h2>
+          <button type="button" class="text-center btn-5">Order Now</button>
+        </div>
+        <div class="card5">
+          <img src="./Images/vegsoup.png" alt="vegsoup" />
+          <h2 class="text-center my-3">Veg Soup</h2>
+          <button type="button" class="text-center btn-5">Order Now</button>
+        </div>
+      </div>
+      <div
+        class="cards5-2nd-group d-flex flex-wrap justify-content-center mx-5 gap-3"
+      >
+        <div class="card5">
+          <img src="./Images/gulabjamun.png" alt="gulabjamun" />
+          <h2 class="text-center my-3">Gulab Jamun</h2>
+          <button type="button" class="text-center btn-5">Order Now</button>
+        </div>
+        <div class="card5">
+          <img src="./Images/maaUrundai.png" alt="maaUrundai" />
+          <h2 class="text-center my-3">Porivellangai Urundai</h2>
+          <button type="button" class="text-center btn-5">Order Now</button>
+        </div>
+        <div class="card5">
+          <img src="./Images/jangri.png" alt="jangri" />
+          <h2 class="text-center my-3">Jangri</h2>
+          <button type="button" class="text-center btn-5">Order Now</button>
+        </div>
+        <div class="card5">
+          <img src="./Images/laddu.png" alt="ladduu" />
+          <h2 class="text-center my-3">Lattu</h2>
+          <button type="button" class="text-center btn-5">Order Now</button>
+        </div>
+        <div class="card5">
+          <img src="./Images/halwa.png" alt="halwa" />
+          <h2 class="text-center my-3">Halwa</h2>
+          <button type="button" class="btn-5">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section5>
+ </main>
+ <!-- main content ends here-->
+ <!--footer starts here--> 
+ <footer>
+    <div class="footer-coloum d-flex flex-column align-items-center">
+        <img src="./Images/fhr.svg" alt="fhr" class="hr-first img-fluid" />
+        <div class="footer-two container-fluid d-flex flex-wrap ">
+          <div class="footer-left d-flex flex-wrap">
+            <div class="company">
+              <h2>Company</h2>
+              <p>About Us</p>
+              <p>Team</p>
+              <p>Careers</p>
+              <p>Blog</p>
+            </div>
+            <div class="Contact">
+              <h2>Contact</h2>
+              <p>Help & Support</p>
+              <p>Partner with us</p>
+              <p>Ride with us</p>
+            </div>
+            <div class="legal">
+              <h2>Legal</h2>
+              <p>Terms & Conditions</p>
+              <p>Refund & Cancellation</p>
+              <p>Privacy Policy</p>
+              <p>Cookie Policy</p>
+            </div>
+          </div>
+          <div class="footer-right">
+            <h2>Follow us</h2>
+            <div class="social-icons">
+              <img src="./Images/insta.svg" alt="insta" />
+              <img src="./Images/facebook.svg" alt="faceBook" />
+              <img src="./Images/twitter.svg" alt="twitter" />
+            </div>
+            <h3>Receive exclusive offers in your mailbox</h3>
+            <form>
+              <input type="email" name="email" id="" />
+              <button class="footer-btn" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <img src="./Images/fhr1.svg" alt="fhr1" class="img-fluid" />
+        <div class="rights">
+          <p>All rights Reserved</p>
+          <p>Made with by Athi</p>
+        </div>
+      </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
